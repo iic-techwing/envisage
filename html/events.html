@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/bg_emoji/envisage.ico">
+    <link rel="stylesheet" href="../css/default.css">
+    <link rel="stylesheet" href="../css/event_header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/sep_events.css">
+    <link rel="stylesheet" href="../css/nav.css">
+    <title>ENVISAGE</title>
+</head>
+<body onscroll="isneedtoscrollup()">
+    <div class="slidetop">
+        <a href="#main"><i class="fas fa-arrow-up"></i></a>
+    </div>
+    <nav>
+        <div class="handburger">
+            <i class="fas fa-bars" onclick="toggleActive()"></i>
+            <i class="far fa-times-circle" onclick="toggleActive()"></i>
+        </div>
+        <div class="overlay" onmousemove="movemouse(event)">
+            <ul>
+                <li><a onmouseover="mousein(this)" onmouseout="mouseout(this)" href="../index.html">Home</a></li>
+                <li><a onmouseover="mousein(this)" onmouseout="mouseout(this)" href="./about.html">About Envisage</a>
+                </li>
+                <li><a onmouseover="mousein(this)" onmouseout="mouseout(this)" href="#">Events</a></li>
+                <li><a onmouseover="mousein(this)" onmouseout="mouseout(this)" href="../html/etalk.html">E-Talk</a></li>
+                <li><a onmouseover="mousein(this)" onmouseout="mouseout(this)" href="./team.html">Team</a></li>
+                <li><a onmouseover="mousein(this)" onmouseout="mouseout(this)" href="./gallery.html">GALLERY</a></li>
+                <li><a onmouseover="mousein(this)" onmouseout="mouseout(this)" href="./sponsors.html">sponsors</a></li>
+            </ul>
+            <div class="cursor"></div>
+        </div>
+    </nav>
+    <div id="main">
+        <header class="content">
+            <!-- Background SVG -->
+            <img src="../images/svg/wave6.svg" alt="" class="bg">
+            <h1 class="text" data-text="EVENTS">EVENTS</h1>
+            <svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='71px' height='11px'>
+                <path fill-rule='evenodd'
+                    d='M59.669,10.710 L49.164,3.306 L39.428,10.681 L29.714,3.322 L20.006,10.682 L10.295,3.322 L1.185,10.228 L-0.010,8.578 L10.295,0.765 L20.006,8.125 L29.714,0.765 L39.428,8.125 L49.122,0.781 L59.680,8.223 L69.858,1.192 L70.982,2.895 L59.669,10.710 Z' />
+            </svg>
+            <div class="container">
+                <div>
+                    <span data-text="Biz-Plan">
+                        <i class="fas fa-chart-line"></i>
+                        <!-- <h2></h2> -->
+                    </span>
+                    <h2 class="header">Biz-Plan</h2>
+                    <div></div>
+                    <p class="para">Biz-Plan is an opportunity to reward young entrepreneurs with wise business ideas.</p>
+                    <a class="link" href="#bizPlan">Know More <i class="fas fa-long-arrow-alt-right"></i></a>
+                </div>
+                <div>
+                    <span data-text="Case Study">
+                        <i class="fas fa-book-open"></i>
+                        <!-- <h2></h2> -->
+                    </span>
+                    <h2 class="header">Case Study</h2>
+                    <div></div>
+                    <p class="para">Case-Study is an opportunity to develop the best solution to a real business problem.</p>
+                    <a class="link" href="#case">Know More <i class="fas fa-long-arrow-alt-right"></i></a>
+                </div>
+                <div>
+                    <span data-text="Stockify">
+                        <i class="fas fa-chart-pie"></i>
+                        <!-- <h2></h2> -->
+                    </span>
+                    <h2 class="header">Stockify</h2>
+                    <div></div>
+                    <p class="para">Stockify is an online simulation trading game to create & manage your own portfolio.</p>
+                    <a class="link" href="#stockify">Know More <i class="fas fa-long-arrow-alt-right"></i></a>
+                </div>
+                <div>
+                    <span data-text="Brain-It-Out">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                        <!-- <h2></h2> -->
+                    </span>
+                    <h2 class="header">Brain-It-Out</h2>
+                    <div></div>
+                    <p class="para">Brain-It-Out is a Quiz event on relevant business topics and the market scenario.</p>
+                    <a class="link" href="#quiz">Know More <i class="fas fa-long-arrow-alt-right"></i></a>
+                </div>
+                <div>
+                    <span data-text="Promote IT">
+                        <i class="fas fa-pen-nib"></i>
+                        <!-- <h2></h2> -->
+                    </span>
+                    <h2 class="header">Promote IT</h2>
+                    <div></div>
+                    <p class="para">Devise a promotional strategy for the given product to engage the audience on a deeper level.</p>
+                    <a class="link" href="#promote">Know More <i class="fas fa-long-arrow-alt-right"></i></a>
+                </div>
+                <div>
+                    <span data-text="Mock IPL">
+                        <i class="fas fa-pen-nib"></i>
+                        <!-- <h2></h2> -->
+                    </span>
+                    <h2 class="header">Mock IPL</h2>
+                    <div></div>
+                    <p class="para">IPL Auction where every team gets a fixed amount of virtual money to bid T20 Players.</p>
+                    <a class="link" href="#mock">Know More <i class="fas fa-long-arrow-alt-right"></i></a>
+                </div>
+                <div>
+                    <span data-text="Analytix">
+                        <i class="fas fa-microphone-alt"></i>
+                        <!-- <h2></h2> -->
+                    </span>
+                    <h2 class="header">Analytix</h2>
+                    <div></div>
+                    <p class="para">Analytix is an event to design a solution using data analytics for a given problem statement.</p>
+                    <a class="link" href="#analytix">Know More <i class="fas fa-long-arrow-alt-right"></i></a>
+                </div>
+            </div>
+        </header>
+        <img src="../images/svg/wave7.svg" alt="" class="wave7" id="wave7">
+
+        <!-- Biz-Plan -->
+        <div class="evt" id="bizPlan">
+            <h1>Biz-Plan</h1>
+            <svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='71px' height='11px'>
+                <path fill-rule='evenodd'
+                    d='M59.669,10.710 L49.164,3.306 L39.428,10.681 L29.714,3.322 L20.006,10.682 L10.295,3.322 L1.185,10.228 L-0.010,8.578 L10.295,0.765 L20.006,8.125 L29.714,0.765 L39.428,8.125 L49.122,0.781 L59.680,8.223 L69.858,1.192 L70.982,2.895 L59.669,10.710 Z' />
+            </svg>
+            <div class="img">
+                <img src="../images/svg/analytix.svg" alt="">
+            </div>
+            <h2>Description</h2>
+            <span></span>
+            <span class="btn-span"></span>
+            <p>
+                An opportunity to buckle young entrepreneurs with wise business ideas to stand a chance to get well rewarded. Dedicated to spark the spirit of entrepreneurship and pave the way from an idea to professional success, this event will provide a platform to showcase your witty impromptu thinking and your budding startup ideas in front of an esteemed panel of investors and dazzle the audience.
+            </p>
+            <p class="sec-para">
+                Category: Business Model Making Competition
+                <!-- <br>Registration Fee: INR 150 (Team)     -->
+                <br>Registration Fee: INR 150 (Per Team of Max 5 People)
+                
+                <br><br><b>Event Coordinators : </b>
+                <ul style="list-style-type: circle;">
+                    <li>Priyanshu Kumar: +91 82715 38524</li>
+                    <li>Debjit Dasgupta: +91 97483 06202</li>
+                </ul>
+            </p>
+            <h2>Rule</h2>
+            <span></span>
+            <span class="btn-span"></span>
+            <ul>
+                <li>The competition is open to everyone. The teams must apply with their pitch deck.</li>
+                <li>A team can consist of a maximum of 5 members. Individual participation is also accepted. Only one of the team members should register as Team Leader.</li>
+                <li>One participant cannot be a part of multiple teams</li>
+                <li>The team structure is inflexible once the registration is complete.</li>
+                <li>Each team will be allotted 5 minutes (4 minutes for explaining their ideas and 1 minute for Q&A round).</li>
+                <li>Top three teams will get a chance to be mentored by renowned investors and entrepreneurs and the winner will also get investment in their ideas allocated by the investors.</li>
+            </ul>
+            <h2>Rewards and Prizes</h2>
+            <span></span>
+            <span class="btn-span"></span>
+            <ul>
+                <li>Prize pool and goodies worth Rs. 10000</li>
+                <li>Winners and Runners will get Flight Ticket to Singapore worth Rs. 1,20,000.</li>
+                <li>Incubation to winning team worth Rs. 20,000 from Freeflow Ventures Pvt. Ltd.</li>
+                <li>Exciting Investment Pool in Investment Competition</li>
+                <li>Startup Support Services will be provided upto 50% discount upto Rs. 50,000 to top 3 Rank Holders.</li>
+                <li>Cyber Security Services Credit Upto $3000 for the Winners and $1000 to Runners from TeamCognito Solutions Pvt. Ltd.</li>
+                <li>Internship Opportunites for top 5 teams at Freeflow Ventures Pvt. Ltd.</li>
+            </ul>
+            <a href="http://bit.ly/env_biz" class="link">Register</a>
+        </div>
+
+        <!-- Case Study -->
+        <div class="evt case" style="margin-top: 0px;padding-top: 60px;padding-bottom: 40px;">
+            <h1  id="case">Case Study</h1>
+            <svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='71px' height='11px'>
+                <path fill-rule='evenodd'
+                    d='M59.669,10.710 L49.164,3.306 L39.428,10.681 L29.714,3.322 L20.006,10.682 L10.295,3.322 L1.185,10.228 L-0.010,8.578 L10.295,0.765 L20.006,8.125 L29.714,0.765 L39.428,8.125 L49.122,0.781 L59.680,8.223 L69.858,1.192 L70.982,2.895 L59.669,10.710 Z' />
+            </svg>
+            <div class="img">
+                <img src="../images/svg/study.svg" alt="">
+            </div>
+            <h2>Description</h2>
+            <span></span>
+            <span class="btn-span"></span>
+            <p>
+                In a case challenge, participants strive to develop the best solution to a real business case study within an allocated time frame, typically with teams of three to five individuals pitted against each other in a head-to-head or broader relative ranking. Teams deliver presentations for judges and, while competitions vary in composition, a standard format and purpose exists. It challenges the students from all across the nation to compete against each other and prove their business and entrepreneurial mettle in a real-life scenario. The participants are expected not only to have strong business skills but also the ability to identify entrepreneurship opportunities.
+            </p>
+            <p class="sec-para">
+            Category: Business Model Making Competition
+            <!-- <br>Registration Fee: INR 150 (Team)     -->
+            <br>Registration Fee: FREE (Register on D2C)
+            <br><br><b>Event Coordinators : </b>
+            <ul style="list-style-type: circle;">
+                <li>Nikhil Agarwal: +91 98742 44051</li>
+                <li>Koustav Mukherjee: +91 95933 64283</li>
+            </ul>
+
+            </p>
+            <h2>Rule</h2>
+            <span></span>
+            <span class="btn-span"></span>
+            <ul>
+                <li>The initial round will be an online submission round in which participants will have to submit an initial draft of their solution consisting of not more than 450-500 words.</li>
+                <li>Participants also have to submit a presentation (PPT or PDF Format) on their solution.</li>
+                <li>The case statement will be released one week before the competition.</li>
+            </ul>
+            <h2>Rewards and Prizes</h2>
+            <span></span>
+            <span class="btn-span"></span>
+            <ul>
+                <li>Cash Prize pool worth Rs. 3000.</li>
+                <li>Winners will get Flight Ticket to Singapore worth Rs. 60000.</li>
+                <li>Winning team will get a Boat Earphone.</li>
+            </ul>
+            <a href="http://bit.ly/env_casestudy" class="link">Register</a>
+        </div>
+
+        <!-- Stockify -->
+        <div class="evt white" style="margin-top: 0;padding-top: 60px;padding-bottom: 40px;">
+            <h1 id="stockify" >Stockify</h1>
+            <svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='71px' height='11px'>
+                <path fill-rule='evenodd'
+                    d='M59.669,10.710 L49.164,3.306 L39.428,10.681 L29.714,3.322 L20.006,10.682 L10.295,3.322 L1.185,10.228 L-0.010,8.578 L10.295,0.765 L20.006,8.125 L29.714,0.765 L39.428,8.125 L49.122,0.781 L59.680,8.223 L69.858,1.192 L70.982,2.895 L59.669,10.710 Z' />
+            </svg>
+            <div class="img">
+                <img src="../images/svg/stock.svg" alt="">
+            </div>
+            <h2>Description</h2>
+            <span></span>
+            <span class="btn-span"></span>
+            <p>
+                The Stock Market Challenge is an online simulation trading game where you create and manage your own portfolio and compete with other players in a risk-free environment. Access financial information on stocks to get a better insight into their potential and fundamentals.
+            </p>
+            <p class="sec-para">
+                Category: Virtual Trading
+                <br>
+                <!-- Registration Fee: Free -->
+                Registration Fee: FREE (Register on D2C)
+                <br><br><b>Event Coordinators : </b>
+                <ul style="list-style-type: circle;">
+                    <li>Nikhil Agarwal: +91 98742 44051</li>
+                </ul>
+            </p>
+            <h2>Rule</h2>
+            <span></span>
+            <span class="btn-span"></span>
+            <ul>
+                <li>The event will be live from 2 weeks before the E-Summit.</li>
+                <li>The existing dummy cash balance will be cleared and an amount of Rs. 10 lakh dummy cash will be credited to the account of each participant.</li>
+                <li>They can trade according to BSE.</li>
+                <li>A specific time slot will be mentioned where each participant has to report and show us their final account balance. They must update their final net-worth to our assigned volunteer’s datasheet.</li>
+                <li>After submitting the details or after the given timeslot, no participant will be allowed to enter any data regarding their final net worth.</li>
+                <li>Winners will be decided by calculating the highest net-worth among the participants.</li>
+            </ul>
+            <h2>Rewards and Prizes</h2>
+            <span></span>
+            <span class="btn-span"></span>
+            <ul>
+                <li>Cash Prize and Boat Earphone to the Winner.</li>
+                <li>Stock market Course from Py - Volution</li>
+            </ul>
+            <a href="http://bit.ly/env_stockify" class="link">Register</a>
+        </div>
+
+        <!-- Brain-it-Out  -->
+        <div class="evt case" style="margin-top: 0px;padding-top: 60px;padding-bottom: 40px;">
+            <h1  id="quiz">Brain-it-Out</h1>
+            <svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='71px' height='11px'>
+                <path fill-rule='evenodd'
+                    d='M59.669,10.710 L49.164,3.306 L39.428,10.681 L29.714,3.322 L20.006,10.682 L10.295,3.322 L1.185,10.228 L-0.010,8.578 L10.295,0.765 L20.006,8.125 L29.714,0.765 L39.428,8.125 L49.122,0.781 L59.680,8.223 L69.858,1.192 L70.982,2.895 L59.669,10.710 Z' />
+            </svg>
+            <div class="img">
+                <img src="../images/svg/quiz.svg" alt="">
+            </div>
+            <h2>Description</h2>
+            <span></span>
+            <span class="btn-span"></span>
+            <p>
+                Curious about how well you know business and technology-related topics? Brain-It-Out is an online quiz competition on business, technology, and innovation. It's time for your adrenaline to start flowing. This is a solo event where each participant will be quizzed on relevant business topics and market scenarios.
+            </p>
+            <p class="sec-para">
+                Category: Business Quiz
+                <br>
+                <!-- Registration Fee: INR 70 (Individual) -->
+                <br>Registration Fee: INR 40 (Individual Participation)
+                <br><br><b>Event Coordinators : </b>
+                <ul style="list-style-type: circle;">
+                    <li>Subhodeep Sarkar: +91 70034 70948</li>
+                    <li>Shayantani Kar: +91 86971 85729</li>
+                </ul>
+            </p>
+            <h2>Rule</h2>
+            <span></span>
+            <span class="btn-span"></span>
+            <ul>
+                <li>It is a solo event.</li>
+                <li>Multiple rounds of quiz will be held on 25th June and then the winners will be announced.</li>
+            </ul>
+            <h2>Rewards and Prizes</h2>
+            <span></span>
+            <span class="btn-span"></span>
+            <ul>
+                <li>Prize pool and goodies worth Rs. 4000.</li>
+                <li>Winner will get Boat Earphone.</li>
+            </ul>
+            <a href="http://bit.ly/env_brainitout" class="link">Register</a>
+        </div>
+
+        <!-- Promote-IT  -->
+        <div class="evt white" style="margin-top: 0px;padding-top: 60px;padding-bottom: 40px;">
+            <h1  id="promote" style="color: #eb1745;">Promote-IT</h1>
+            <svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='71px' height='11px'>
+                <path fill-rule='evenodd'
+                    d='M59.669,10.710 L49.164,3.306 L39.428,10.681 L29.714,3.322 L20.006,10.682 L10.295,3.322 L1.185,10.228 L-0.010,8.578 L10.295,0.765 L20.006,8.125 L29.714,0.765 L39.428,8.125 L49.122,0.781 L59.680,8.223 L69.858,1.192 L70.982,2.895 L59.669,10.710 Z' />
+            </svg>
+            <div class="img">
+                <img src="../images/svg/quiz.svg" alt="">
+            </div>
+            <h2>Description</h2>
+            <span></span>
+            <span class="btn-span"></span>
+            <p>
+                Promotion is a powerful way to build a brand/product, and therefore often plays a leading role in the marketing strategy. This event is perfect to channelize your brain and wit in a common direction. Devise a promotional strategy for the given product; compelling enough to engage the audience on a deeper level and stand out among the rest.
+            </p>
+            <p class="sec-para">
+                Category: Marketing
+                <br>
+                <!-- Registration Fee: INR 120 (Team) -->
+                Registration Fee: INR 100 (Per Team of Max 3 People)
+                <br><br><b>Event Coordinators : </b>
+                <ul style="list-style-type: circle;">
+                    <li>Koustav Banerjee: +91 83358 47349</li>
+                    <li>Soumalya Bhattacharya: +91 86178 82389</li>
+                </ul>
+            </p>
+            <h2>Rule</h2>
+            <span></span>
+            <span class="btn-span"></span>
+            <ul>
+                <li>We will provide details of 1 product, prior to the competition (On 18th June).</li>
+                <li>Participants have to make a promotional poster.</li>
+                <li>Participants also have to submit a promotional strategy in PPT or PDF format and a video(maximum of 5 minutes in length), elaborating all the details of how they will be going to promote it.</li>
+                <li>Teams will be shortlisted based on their promotional poster (design) and their promotional strategy.</li>
+            </ul>
+            <h2>Rewards and Prizes</h2>
+            <span></span>
+            <span class="btn-span"></span>
+            <ul>
+                <li>Prize pool and goodies worth Rs. 5000.</li>
+                <li>Winners will get Flight Ticket to Singapore worth Rs. 60000.</li>
+                <li>Digital Marketing Services will be provided upto 60% discount upto Rs. 50,000 to top 3 Rank Holders.</li>
+            </ul>
+            <a href="http://bit.ly/env_promote" class="link">Register</a>
+        </div>
+        
+        <!-- Mock IPL Auction  -->
+        <div class="evt case" style="margin-top: 0px;padding-top: 60px;padding-bottom: 40px;">
+            <h1  id="mock">Mock IPL Auction</h1>
+            <svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='71px' height='11px'>
+                <path fill-rule='evenodd'
+                    d='M59.669,10.710 L49.164,3.306 L39.428,10.681 L29.714,3.322 L20.006,10.682 L10.295,3.322 L1.185,10.228 L-0.010,8.578 L10.295,0.765 L20.006,8.125 L29.714,0.765 L39.428,8.125 L49.122,0.781 L59.680,8.223 L69.858,1.192 L70.982,2.895 L59.669,10.710 Z' />
+            </svg>
+            <div class="img">
+                <img src="../images/svg/quiz.svg" alt="">
+            </div>
+            <h2>Description</h2>
+            <span></span>
+            <span class="btn-span"></span>
+            <p>
+                This is an awesome opportunity for all those cricket freaks to put on the hat of a bidder and build the dream team. This is a pure game of strategy and gut. If one loves cricket and can blend it with passion into a bidding strategy, then this event is a must-try shot.
+                <br>
+                It is a real-time mock IPL Auction event in which every team gets a fixed amount of virtual money to bid on international T20 Players. After thorough analysis, they will need to strategize which players they need to bid more money on.
+            </p>
+            <p class="sec-para">
+                Category: Auction
+                <br>
+                <!-- Registration Fee: INR 70 (Individual) -->
+                <br>Registration Fee: INR 100 (Per Team of Max 3 People)
+                <br><br><b>Event Coordinators : </b>
+                <ul style="list-style-type: circle;">
+                    <li>Moinak Ghosh: +91 94325 82711</li>
+                    <li>Ankit Kumar Gorain: +91 99051 65799</li>
+                </ul>
+            </p>
+            <h2>Rule</h2>
+            <span></span>
+            <span class="btn-span"></span>
+            <ul>
+                <li>It is a team event. A team can consist of a maximum of 3 members and minimum of 1 member. Only one of the team members should register as Team Leader. The team structure is inflexible once the registration is complete.</li>
+                <li>Every team will get a specific amount of virtual cash. They need to utilize it for making their team.</li>
+                <li>Teams can start bidding from a base price. In case of a tie the first bid will be considered.</li>
+                <li>Each time the player can raise a certain amount of bid that will be declared by the event coordinators.</li>
+                <li>The team with the most team value will be decided winner.</li>
+            </ul>
+            <h2>Rewards and Prizes</h2>
+            <span></span>
+            <span class="btn-span"></span>
+            <ul>
+                <li>Prizes and goodies worth Rs. 4000 to Winning Team.</li>
+                <li>Winners will get Flight Ticket to Singapore worth Rs. 60000.</li>
+                <li>Winning team will get a Boat Earphone.</li>
+            </ul>
+            <a href="http://bit.ly/env_ipl" class="link">Register</a>
+        </div>
+
+        <!-- Analytix  -->
+        <div class="evt white" style="margin-top: 0px;padding-top: 60px;padding-bottom: 40px;">
+            <h1  id="analytix" style="color: #eb1745;">Analytix</h1>
+            <svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='71px' height='11px'>
+                <path fill-rule='evenodd'
+                    d='M59.669,10.710 L49.164,3.306 L39.428,10.681 L29.714,3.322 L20.006,10.682 L10.295,3.322 L1.185,10.228 L-0.010,8.578 L10.295,0.765 L20.006,8.125 L29.714,0.765 L39.428,8.125 L49.122,0.781 L59.680,8.223 L69.858,1.192 L70.982,2.895 L59.669,10.710 Z' />
+            </svg>
+            <div class="img">
+                <img src="../images/svg/quiz.svg" alt="">
+            </div>
+            <h2>Description</h2>
+            <span></span>
+            <span class="btn-span"></span>
+            <p>
+                With the presence of a plethora of competitors in any sector you choose, every company certainly embraces the best data analysis experts. Analytix is a sprint to activate your brain cells to design a solution for the problem statement provided to you; based on Data Analysis. Get creative and develop effective strategies to find the best solution.
+            </p>
+            <p class="sec-para">
+                Category: Marketing
+                <br>
+                <!-- Registration Fee: INR 100 (Team) -->
+                Registration Fee: INR 100 (Per Team of Max 3 People)
+                <br><br><b>Event Coordinators : </b>
+                <ul style="list-style-type: circle;">
+                    <li>Ritam Kabiraj: +91 70034 72685</li>
+                    <li>Ankit Podder: +91 86229 88250</li>
+                </ul>
+            </p>
+            <h2>Rule</h2>
+            <span></span>
+            <span class="btn-span"></span>
+            <ul>
+                <li>A problem statement along with the data set will be given 5 to 7 days prior to the competition.</li>
+                <li>Teams have to analyze it and make a Report & PPT out of it mentioning possible solutions to the problem statement and upload on D2C.</li>
+                <li>They can also record a video of their presentation (Optional) and submit it to us.</li>
+                <li>Winners will be selected based on their analysis and PPT presentation.</li>
+            </ul>
+            <h2>Rewards and Prizes</h2>
+            <span></span>
+            <span class="btn-span"></span>
+            <ul>
+                <li>Prize pool and goodies worth Rs. 5000</li>
+                <li>Winners will get Flight Ticket to Singapore worth Rs. 60000.</li>
+                <li>Data and Business Analytics Live  Course from Team Cognito to winners for 3 Months worth Rs. 25000 TeamCognito Solutions Pvt. Ltd.</li>
+                <li>Data and Business Analytics Live Course from Team Cognito to runners for 1 Month worth Rs. 7,500 TeamCognito Solutions Pvt. Ltd.</li>
+                <li>Live Python course from Py-Volution to 2nd Runner-Up.</li>
+            </ul>
+            <a href="http://bit.ly/env_analytix" class="link">Register</a>
+        </div>
+        
+
+        <!-- Footer -->
+        <footer style="background-color: #fff;z-index: 6; box-shadow: 0 0 20px #0003;">
+            <div class="about-foot">
+                <h1>About us</h1>
+                <span></span>
+                <span></span>
+                <p>
+                    Envisage is the official E-Summit of Techno Main Salt Lake organized by IIC-TMSL. 
+                </p>
+                <div>
+                    <a href="https://www.facebook.com/envisagetmsl">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://www.instagram.com/envisagetmsl/">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.youtube.com/channel/UCnrbFhmXUKnMU2Wzeq-EY6Q">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a href="https://twitter.com/envisagetmsl">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/company/envisagetmsl/">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="links-foot">
+                <h1>Quick Links</h1>
+                <span></span>
+                <span></span>
+                <ul>
+                    <li><a href="#bizPlan">Biz-Plan</a></li>
+                    <li><a href="#case">Case Study</a></li>
+                    <li><a href="#stockify">Stockify</a></li>
+                    <li><a href="#quiz">Brain-It-Out</a></li>
+                    <li><a href="#promote">Promote IT</a></li>
+                    <li><a href="#mock">Mock IPL</a></li>
+                    <li><a href="#analytix">Analytix</a></li>
+                </ul>
+            </div>
+            <div class="contact-foot">
+                <h1>Contact</h1>
+                <span></span>
+                <span></span>
+                <div class="address">
+                    <div>
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>
+                            TECHNO INDIA : EM-4/1, Sector-V,
+                            Salt Lake, Kolkata-700091,West Bengal
+                        </p>
+                    </div>
+                    <div>
+                        <i class="fas fa-phone-alt"></i>
+                        <p>+91 85150 05676</p>
+                    </div>
+                    <div>
+                        <i class="fas fa-envelope"></i>
+                        <a style="color:black; text-decoration:none" href="mailto:envisagetmsl@gmail.com">envisagetmsl@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+        </footer> 
+        
+    </div>
+
+    <!-- Script -->
+    <script src="https://kit.fontawesome.com/d2ca914d90.js" crossorigin="anonymous"></script>
+    <script src="../js/nav.js"></script>
+</body>
+</html>
